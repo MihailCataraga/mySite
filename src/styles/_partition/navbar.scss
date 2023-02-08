@@ -1,3 +1,29 @@
 .navbar {
-    
+    padding: 10px 250px;
+    justify-content: space-between;
+    background-color: var(--background);
+    .logo{
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--color);
+        margin-left: 50px;
+        h1{
+            font-size: 34px;
+            font-weight: 400;
+            span{
+                font-size: 48px;
+                font-weight: 700;
+            }
+        }
+    }
+    .pages{
+        margin-right: 50px;
+        .link{
+            text-decoration: none;
+            color: var(--color);
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
 }
