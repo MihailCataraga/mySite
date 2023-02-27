@@ -1,0 +1,201 @@
+.aboutContent{
+    background-color: var(--page-background);
+    padding: 30px 0;
+    .profile{
+        margin: 0 12vw;
+        padding: 50px 0 80px 0;
+        background-color: var(--sec-background);
+        border-radius: 20px;
+        width: 100%;
+        position: relative;
+        .left{
+            flex-direction: column;
+            margin: 0 30px;
+            img{
+                border-radius: 25px;
+            }
+            h2{
+                font-weight: 600;
+                margin: 10px 0 0 0;
+            }
+            .skills{
+                margin-top: 20px;
+                background-color: var(--page-background);
+                border-radius: 25px;
+                padding: 20px;
+                h3{
+                    text-align: center;
+                    margin-bottom: 5px;
+                }
+                .skill{
+                    justify-content: space-between;
+                    margin-bottom: 5px;
+                    .icon{
+                        font-size: 22px;
+                        margin-right: 5px;
+                    }
+                    .html{
+                        color: #f75421;
+                    }
+                    .css{
+                        color: #254bdd;
+                    }
+                    .sass{
+                        color: #c76395;
+                    }
+                    .materialUI{
+                        color: #33a3ff;
+                    }
+                    .bootstrap{
+                        color: #8210f5;
+                    }
+                    .javascript{
+                        color: #e8d44d;
+                    }
+                    .jQuery{
+                        color: #1064a5;
+                    }
+                    .json{
+                        color: #6c3cf2;
+                    }
+                    .react{
+                        color: #00d1f7;
+                    }
+                    .redux{
+                        color: #7248b6;
+                    }
+                    .node{
+                        color: #89bb3e;
+                    }
+                    .npm{
+                        color: #d72c34;
+                    }
+                    .gitHub{
+                        color: #1e1d1d;
+                    }
+                    .python{
+                        color: #346f9f                    
+                    }
+                    p{
+                        margin-right: 20px;
+                        font-weight: 500;
+                        
+                    }
+                }
+            }
+        }
+        .right{
+            background-color: var(--page-background);
+            width: 100%;
+            margin: 0 30px;
+            border-radius: 25px;
+            padding: 25px;
+            .info-me{
+                h3{
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                .infos{
+                    flex-wrap: wrap;
+                    .info{
+                        margin-right: 20px;
+                        h4{
+                            font-weight: 600;
+                        }
+                        p{
+                            margin-left: 5px;
+                        }
+                    }
+                }
+                
+            }
+            .education{
+                h3{
+                    text-align: center;
+                    margin: 10px 0;
+                }
+                .course{
+                    margin-bottom: 20px;
+                    p{
+                        font-size: 14px;
+                    }
+                    h4{
+                        font-size: 18px;
+                        span{
+                            font-size: 16px;
+                        }
+                    }
+                    h4{
+                        font-size: 16px;
+                        a{
+                            color: black;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .language{
+                h3{
+                    text-align: center;
+                    margin: 10px 0;
+                }
+                p{
+                    b{
+                        font-weight: 600;
+                    }
+                }
+                table{
+                    thead{
+                        tr{
+                            th{
+                                text-align: center;
+                                padding: 0 5px;
+                                background-color: var(--sec-background);
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            td{
+                                text-align: center;
+                                &:nth-child(1){
+                                    background-color: var(--sec-background);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .driving{
+                h3{
+                    text-align: center;
+                    margin: 10px 0;
+                }
+                div{
+                    flex-wrap: wrap;
+                    p{
+                        margin-right: 20px;
+                    }
+                }
+                
+            }
+        }
+        .downloadCV{
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%);
+            background-color: var(--button);
+            padding: 5px 10px;
+            border-radius: 25px;
+            color: var(--button-color);
+            cursor: pointer;
+            color: var(--button-color);
+            text-decoration: none;
+            .icon{
+                font-size: 24px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

@@ -1,7 +1,11 @@
 :root{
-    --color: black;
+    --color: rgb(0, 0, 0);
     --background: rgb(253, 187, 43);
-    --button: red;
+    --sec-background: rgb(255, 220, 144);
+    --page-background: rgb(250, 240, 221);
+    --button: rgb(170, 107, 44);
+    --button-color: rgb(255, 255, 255);
+    --text-dark: rgb(48, 48, 48);
 }
 * {
     margin: 0;
@@ -22,3 +26,8 @@
 }
 
 @import "./_partition/navbar.scss";
+@import "./_partition/homeContent.scss";
+@import "./_partition/projectsContent.scss";
+@import "./_partition/aboutContent.scss";
+@import "./_partition/contactsContent.scss";
+@import "./_partition/footer.scss";

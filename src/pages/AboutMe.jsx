@@ -1,13 +1,13 @@
 import React from 'react'
+import AboutContent from '../components/AboutContent'
 import Footer from '../components/Footer'
-import HomeContent from '../components/HomeContent'
 import Navbar from '../components/Navbar'
 
-export default function Home() {
+export default function AboutMe() {
   return (
-    <div className='Home'>
+    <div>
         <Navbar />
-        <HomeContent />
+        <AboutContent />
         <Footer />
     </div>
   )

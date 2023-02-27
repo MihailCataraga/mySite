@@ -1,0 +1,76 @@
+.contactsContent{
+    background-color: var(--page-background);
+    padding: 65px 0;
+    .main{
+        margin: 0 12vw;
+        padding: 65px 50px;
+        background-color: var(--sec-background);
+        border-radius: 20px;
+        gap: 30px;
+        img{
+            height: 450px;
+            border-radius: 25px;
+        }
+        .contacts{
+            h2{
+                font-size: 28px;
+                text-align: center;
+                margin: 20px;
+            }
+            .contactsList{
+                flex-wrap: wrap;
+                gap: 30px;
+                .contact{
+                    width: 400px;
+                    gap: 20px;
+                    .icon{
+                        font-size: 50px;
+                        background-color: white;
+                    }
+                    .phone{
+                        background-color: transparent;
+                    }
+                    .email{
+                        background-color: transparent;
+                    }
+                    .facebook{
+                        color: #1773ea;
+                        border-radius: 50%;
+                    }
+                    .instagram{
+                        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+                        background-clip: content-box;
+                        border-radius: 14px;
+                    }
+                    .twitter{
+                        color: #1c96e8;
+                        border-radius: 10px;
+                    }
+                    .linkedin{
+                        color: #0073b1;
+                        border-radius: 8px;
+                    }
+                    .github{
+                        color: #0d2534;
+                        border-radius: 50%;
+                    }
+                    .name{
+                        h4{
+                            font-size: 18px;
+                        }
+                        p{
+                            font-weight: 500;
+                        }
+                        a{
+                            font-weight: 500;
+                            text-decoration: none;
+                            color: black;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import HomeContent from '../components/HomeContent'
 import Navbar from '../components/Navbar'
+import ProjectsContent from '../components/ProjectsContent'
 
-export default function Home() {
+export default function Projects() {
   return (
-    <div className='Home'>
+    <div>
         <Navbar />
-        <HomeContent />
+        <ProjectsContent />
         <Footer />
     </div>
   )

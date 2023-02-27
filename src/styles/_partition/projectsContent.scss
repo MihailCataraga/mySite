@@ -1,0 +1,67 @@
+.projectsContent{
+    background-color: var(--page-background);
+    padding: 30px 0;
+    .projectsList{
+        margin: 0 12vw;
+        padding: 50px 0;
+        background-color: var(--sec-background);
+        border-radius: 20px;
+        flex-direction: column;
+        h2{
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        .projects{
+            flex-wrap: wrap;
+            .project{
+                margin: 15px;
+                background-color: var(--page-background);
+                border-radius: 20px;
+                a{
+                    flex-direction: column;
+                    text-decoration: none;
+                    img{
+                        border-radius: 20px;
+                        width: 250px;
+                        height: 200px;
+                        margin: 20px;
+                    }
+                    h3{
+                        color: var(--color);
+                    }
+                    p{
+                        font-size: 14px;
+                        color: var(--text-dark);
+                        font-weight: 500;
+                    }
+                    .info{
+                        margin: 15px 0;
+                        p{
+                            border: 2px solid;
+                            padding: 5px 10px;
+                            border-radius: 20px;
+                            margin-right: 20px;
+                            font-weight: 500;
+                        }
+                        .green{
+                            color: green;
+                        }
+                        .orange{
+                            color: orange;
+                        }
+                        a{
+                            text-decoration: none;
+                            margin-top: 5px;
+                            .icon{
+                                font-size: 24px;
+                                color: #0d2534;
+                                border-radius: 50%;
+                                background-color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

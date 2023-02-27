@@ -1,0 +1,110 @@
+.homeContent{
+    background-color: var(--page-background);
+    padding: 30px 0;
+    .intro{
+        margin: 0 12vw;
+        padding: 50px 0;
+        background-color: var(--sec-background);
+        border-radius: 20px;
+        flex-wrap: wrap;
+        .presentation{
+            flex-direction: column;
+            padding: 30px;
+            h1{
+                font-size: 34px;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 24px;
+                margin-bottom: 10px;
+                span{
+                    font-weight: 600;
+                }
+            }
+            .link{
+                text-decoration: none;
+                color: var(--color);
+                font-size: 18px;
+                font-weight: 400;
+                background-color: var(--button);
+                padding: 5px 10px;
+                color: var(--button-color);
+                border-radius: 20px;
+                margin-top: 10px;
+                &:hover{
+                    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+                }
+            }
+        }
+        // img{
+
+        // }
+    }
+    .skills-list{
+        flex-direction: column;
+        margin: 30px 12vw;
+        padding: 50px 0;
+        background-color: var(--sec-background);
+        border-radius: 20px;
+        h2{
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .skills{
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 0 10px;
+            margin-bottom: 20px;
+            .skill{
+                flex-direction: column;
+                background-color: var(--page-background);
+                padding: 20px 30px;
+                border-radius: 20px;
+                .logo-box{
+                    .icon{
+                        font-size: 40px;
+                    }
+                    .html{
+                        color: #f75421;
+                    }
+                    .css{
+                        color: #254bdd;
+                    }
+                    .sass{
+                        color: #c76395;
+                    }
+                    .bootstrap{
+                        color: #8210f5;
+                    }
+                    .javascript{
+                        color: #e8d44d;
+                    }
+                    .react{
+                        color: #00d1f7;
+                    }
+                    .redux{
+                        color: #7248b6;
+                    }
+                }
+                h3{
+                    font-weight: 600;
+                }
+            }
+            
+        }
+        .link{
+            text-decoration: none;
+            color: var(--color);
+            font-size: 18px;
+            font-weight: 400;
+            background-color: var(--button);
+            padding: 5px 10px;
+            color: var(--button-color);
+            border-radius: 20px;
+            margin-top: 10px;
+            &:hover{
+                box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+            }  
+        }
+    }
+}

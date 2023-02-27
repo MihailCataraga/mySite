@@ -1,0 +1,60 @@
+const projects = [
+    {
+        name: 'Weather App',
+        img: 'images/img_projects/Weather App.png',
+        status: 'Active',
+        technology: 'HTML, CSS, JavaScript, React',
+        link: 'https://mihailcataraga.github.io/weather_app/',
+        gitHub: 'https://github.com/MihailCataraga/weather_app',
+    },
+    {
+        name: 'Weather App',
+        img: 'images/img_projects/Weather App.png',
+        status: 'In Work',
+        technology: 'HTML, CSS, JavaScript, React',
+        link: 'https://mihailcataraga.github.io/weather_app/',
+        gitHub: 'https://github.com/MihailCataraga/weather_app',
+    },
+    {
+        name: 'Weather App',
+        img: 'images/img_projects/Weather App.png',
+        status: 'Active',
+        technology: 'HTML, CSS, JavaScript, React',
+        link: 'https://mihailcataraga.github.io/weather_app/',
+        gitHub: 'https://github.com/MihailCataraga/weather_app',
+    },
+    {
+        name: 'Weather App',
+        img: 'images/img_projects/Weather App.png',
+        status: 'Started',
+        technology: 'HTML, CSS, JavaScript, React',
+        link: 'https://mihailcataraga.github.io/weather_app/',
+        gitHub: 'https://github.com/MihailCataraga/weather_app',
+    },
+    // {
+    //     name: '',
+    //     img: '',
+    //     status: '',
+    //     technology: '',
+    //     link: '',
+    //     gitHub: '',
+    // },
+    // {
+    //     name: '',
+    //     img: '',
+    //     status: '',
+    //     technology: '',
+    //     link: '',
+    //     gitHub: '',
+    // },
+    // {
+    //     name: '',
+    //     img: '',
+    //     status: '',
+    //     technology: '',
+    //     link: '',
+    //     gitHub: '',
+    // },
+]
+
+export default projects;
